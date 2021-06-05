@@ -1,9 +1,9 @@
 # lab-next-js
 
-My lab for practice about TypeScript :tada:
+My lab for practice about Next.js.
 
 ---
 
 ## Resources
 
-- [TypeScript Handbook](https://www.typescriptlang.org/docs).
+- [Next.js documentation](https://nextjs.org/docs).
