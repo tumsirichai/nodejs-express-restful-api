@@ -1,9 +1,10 @@
-# lab-next-js
+# lab-restful-api-nodejs-express
 
-My lab for practice about Next.js.
+Restful API with Node.js and Express
 
 ---
 
 ## Resources
 
-- [Next.js documentation](https://nextjs.org/docs).
+- [https://www.w3schools.com/nodejs/](https://www.w3schools.com/nodejs/)
+- [https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd](https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd)
