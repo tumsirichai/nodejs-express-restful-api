@@ -1,0 +1,23 @@
+{
+  "name": "lab-restful-api-nodejs-express",
+  "version": "1.0.0",
+  "description": "Restful API with Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatump/lab-restful-api-nodejs-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatump/lab-restful-api-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/tatump/lab-restful-api-nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

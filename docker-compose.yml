@@ -1,0 +1,37 @@
+version: "3.3"
+services:
+    mongodb:
+      container_name: lab_mongodb
+      image: mongo:3.2.7
+      volumes:
+        - "~/Dropbox/_mongodb:/data/db"
+      ports:
+        - ${DB_MONGODB_PORT}:27017
+      networks:
+        - app_network
+      environment: 
+        MONGO_INITDB_DATABASE: auth
+        MONGO_INITDB_ROOT_USERNAME: ${DB_MONGODB_USERNAME}
+        MONGO_INITDB_ROOT_PASSWORD: ${DB_MONGODB_PASSWORD}
+
+    mongo-express:
+      image: mongo-express
+      environment:
+          - ME_CONFIG_MONGODB_SERVER=${DB_MONGODB_SERVER}
+          - ME_CONFIG_MONGODB_PORT=${DB_MONGODB_PORT}
+          - ME_CONFIG_MONGODB_ENABLE_ADMIN=${DB_MONGODB_ENABLE_ADMIN}
+          - ME_CONFIG_MONGODB_AUTH_DATABASE=${DB_MONGODB_DATABASE}
+          - ME_CONFIG_MONGODB_AUTH_USERNAME=${DB_MONGODB_USERNAME}
+          - ME_CONFIG_MONGODB_AUTH_PASSWORD=${DB_MONGODB_PASSWORD}
+          - ME_CONFIG_BASICAUTH_USERNAME=${DB_BASICAUTH_USERNAME}
+          - ME_CONFIG_BASICAUTH_PASSWORD=${DB_BASICAUTH_PASSWORD}
+      depends_on:
+        - mongodb
+      ports:
+        - "8081:8081"
+      networks:
+        - app_network
+
+networks:
+  app_network:
+    external: true
