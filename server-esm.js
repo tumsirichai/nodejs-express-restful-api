@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 // app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.send("Hello! Node.js");
+  res.send("Hello! Node.js (ESM)");
 });
 
 app.get('/users', (req, res) => {
