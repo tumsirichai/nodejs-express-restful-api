@@ -2,7 +2,7 @@
   "name": "lab-restful-api-nodejs-express",
   "version": "1.0.0",
   "description": "Restful API with Node.js and Express",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
