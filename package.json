@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tatump/lab-restful-api-nodejs-express.git"
+    "url": "git+https://github.com/tumsirichai/nodejs-express-restful-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tatump/lab-restful-api-nodejs-express/issues"
+    "url": "https://github.com/tumsirichai/nodejs-express-restful-api/issues"
   },
-  "homepage": "https://github.com/tatump/lab-restful-api-nodejs-express#readme",
+  "homepage": "https://github.com/tumsirichai/nodejs-express-restful-api#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
