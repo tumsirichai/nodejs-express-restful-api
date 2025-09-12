@@ -1,8 +1,9 @@
 {
   "name": "lab-restful-api-nodejs-express",
+  "type": "module",
   "version": "1.0.0",
   "description": "Restful API with Node.js and Express",
-  "main": "server.js",
+  "main": "server-esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
