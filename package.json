@@ -2,7 +2,6 @@
   "name": "lab-restful-api-nodejs-express",
   "type": "module",
   "version": "1.0.0",
-  "engines": { "node": "22" },
   "description": "Restful API with Node.js and Express",
   "main": "server-esm.js",
   "scripts": {
