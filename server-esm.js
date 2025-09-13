@@ -17,6 +17,10 @@ app.get("/", (req, res) => {
   res.send("Hello! Node.js (ESM)");
 });
 
+app.get('/node-v', (req, res) => {
+    res.json({ nodeVersion: process.version });
+});
+
 app.get('/users', (req, res) => {
   res.json(users);
 });
